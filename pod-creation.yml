@@ -7,14 +7,8 @@ metadata:
 
 spec:
  containers:
- - name: nginx-cont
-   image: nginx
+ - name: nginx-container
+   image: nginx:latest
    ports:
    - containerPort: 80
    - containerPort: 443
-
- - name: nginx-cont2
-   image: nginx
-
- - name: nginx-cont3
-   image: nginx
