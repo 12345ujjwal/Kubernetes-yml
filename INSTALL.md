@@ -1,3 +1,4 @@
+# Kubernetes setup in local or Server
 ```
 chmod +x setup.sh
 ./setup.sh
@@ -8,6 +9,7 @@ exit
 docker --version
 kind version
 kubectl version --client
-```
+
 kind create cluster --name my-cluster
 kubectl get nodes
+```
